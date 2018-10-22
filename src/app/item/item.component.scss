@@ -1,0 +1,18 @@
+@import "../../../node_modules/spectre.css/src/variables";
+
+:host {
+    display: block;
+    position: absolute;
+    margin-right: 20px;
+}
+
+.container {
+    margin-top: 30px;
+    border: solid 3px $secondary-color;
+    border-radius: $border-radius;
+    padding: 20px;
+    overflow: hidden;
+    height: 200px;
+    position: relative;
+    background: #FFFFFF;
+}
