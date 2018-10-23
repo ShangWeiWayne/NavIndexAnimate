@@ -9,7 +9,7 @@ const routes: Routes = [
   {path: '', redirectTo: 'items', pathMatch: 'full'},
   {path: 'items', component: ItemsComponent,
     children: [
-      {path: '', redirectTo: '0', pathMatch: 'full'},
+      {path: '', redirectTo: '', pathMatch: 'full'},
       {path: ':index', component: ItemComponent}
     ]
   },
